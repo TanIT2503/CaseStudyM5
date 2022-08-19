@@ -96,19 +96,10 @@ padding: 4%;
     height: 17%;
 
 }
-/*.Btn__edit1{*/
-/*    justify-items: center;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    height: 100%;*/
-/*}*/
-/*.Btn__edit2{*/
-/*    justify-items: end;*/
-/*    height: 100%;*/
-/*}*/
-/*.btn__acp, .btn__cancle{*/
-/*    height: 100%;*/
-/*}*/
+
+.btn__acp, .btn__cancle{
+    margin: 20px;
+}
 
 .Select__option Option{
     background-color: #2d3953;
