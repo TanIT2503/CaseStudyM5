@@ -1,0 +1,75 @@
+.navbar {
+  z-index: 100;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  /* margin-bottom: 50px; */
+  color: #ffffff;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: saturate(180%) blur(2px);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nav-item .dropdown-menu {
+  background-color: #111827;
+  border-radius: 10px;
+  color: #ffffff;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: saturate(180%) blur(2px);
+
+}
+
+.navbar-brand,
+.navbar-nav .nav-item .nav-link,
+.dropdown-item {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.nav-item .dropdown-menu .dropdown-item:hover {
+  border-radius: 10px;
+  /* border: 1px solid #14133d; */
+  background-color: #26385e;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item .nav-link,
+.nav-item .dropdown-menu .dropdown-item {
+  border-radius: 10px;
+  /* border: 1px solid #14133d; */
+  /* background-color: #26385e;
+  color: #ffffff; */
+}
+
+#Body__card {
+  position: relative;
+  padding: 50px 100px 50px 100px;
+}
+
+#Body__card .card {
+  background-image: linear-gradient(to right, #2d3953, #141d2d, #0d131e);
+}
+
+
+.My__Body {
+  background-image: linear-gradient(to right, #2d3953, #141d2d, #0d131e);
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+.My__Header{
+  position: relative;
+  padding: 50px 100px 0 100px;
+}
+.Social__Media {
+  position: relative;
+  margin: 0 100px 0 100px;
+}
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.btn__card{
+  margin: 20px;
+}
