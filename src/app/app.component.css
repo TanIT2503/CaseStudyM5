@@ -58,7 +58,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
 }
 
-.My__Header{
+.My__Header, .Table__Customer{
   position: relative;
   padding: 50px 100px 0 100px;
 }
@@ -84,7 +84,7 @@
     text-align: center;
 }
 .Form__Col{
-padding: 4%;
+padding:0 70px 70px 70px;
 }
 
 .Select__option{
@@ -104,6 +104,26 @@ padding: 4%;
 .Select__option Option{
     background-color: #2d3953;
 }
+
+.Table__Customer .table{
+    background-color: #2d3953;
+    border: solid 3px;
+    border-color: white;
+}
+th, td {
+    text-align: center;
+    color: white;
+}
+
+.Modal_Delete .modal-dialog .modal-content{
+background-color: #141d2d;
+}
+.Modal_Delete .modal-dialog .modal-content .modal-footer{
+    border-top: 2px solid #2d3953;
+}
+.Modal_Delete .modal-dialog .modal-content .modal-header{
+      border-bottom: 2px solid #2d3953;
+  }
 .pure-material-textfield-outlined {
   --pure-material-safari-helper1: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
   width: 100%;
