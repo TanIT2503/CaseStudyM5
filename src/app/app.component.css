@@ -93,8 +93,8 @@ padding:0 70px 70px 70px;
     border: solid 1px;
     border-radius: 8px;
     color: #ffffff;
-    height: 17%;
-
+    height: 60px;
+    line-height: 50px;
 }
 
 .btn__acp, .btn__cancle{
@@ -143,12 +143,12 @@ background-color: #141d2d;
   margin: 0;
   border: solid 1px; /* Safari */
   border-color: white;
-  /*border-top-color: transparent;*/
+  border-top-color: transparent;
   border-radius: 8px;
   padding: 15px 13px 15px;
   width: 100%;
   height: inherit;
-  color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.87);
+  color: white;
   background-color: transparent;
   box-shadow: none; /* Firefox */
   font-family: inherit;
@@ -230,7 +230,7 @@ background-color: #141d2d;
 /* Placeholder-shown */
 .pure-material-textfield-outlined > input:not(:focus):placeholder-shown,
 .pure-material-textfield-outlined > textarea:not(:focus):placeholder-shown {
-  /*border-top-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);*/
+  border-top-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
 }
 
 .pure-material-textfield-outlined > input:not(:focus):placeholder-shown + span,
@@ -314,4 +314,16 @@ background-color: #141d2d;
       transition-duration: 0.1s;
     }
   }
+}
+
+.Radio__Gender .Radio__check{
+    width: 30px;
+    height: 30px;
+}
+.Radio__Gender{
+    margin-left: 80px;
+}
+input[type="radio"]{
+    vertical-align: middle;
+    margin: 0 20px 0  20px;
 }
