@@ -85,79 +85,72 @@
     </div>
     <!-- Header -->
     <!-- Body -->
-    <div class="Table__Customer">
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">Stt</th>
-                <th scope="col">Số hợp đồng</th>
-                <th scope="col">Ngày bất đầu</th>
-                <th scope="col">Ngày kết thúc</th>
-                <th scope="col">Số tiền cọc</th>
-                <th scope="col">Tổng tiền</th>
-                <th scope="col">Khách hàng</th>
-                <th scope="col">Nhân viên</th>
-                <th scope="col">Dịch vụ</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>HD-1234</td>
-                <td>25/03/2021</td>
-                <td>25/03/2022</td>
-                <td>2500000</td>
-                <td>8000000</td>
-                <td>Đặng Công Tấn</td>
-                <td>Nguyễn Văn A</td>
-                <td>Villa</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>HD-1235</td>
-                <td>25/03/2022</td>
-                <td>25/04/2022</td>
-                <td>250000</td>
-                <td>800000</td>
-                <td>Phạm Văn B</td>
-                <td>Nguyễn Văn A</td>
-                <td>Room</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>HD-1233</td>
-                <td>17/04/2021</td>
-                <td>17/08/2021</td>
-                <td>300000</td>
-                <td>900000</td>
-                <td>Đặng Công Tấn</td>
-                <td>Nguyễn Văn A</td>
-                <td>House</td>
-            </tr>
-            <tr>
-                <th scope="row">5</th>
-                <td>HD-1237</td>
-                <td>25/03/2022</td>
-                <td>25/04/2022</td>
-                <td>250000</td>
-                <td>800000</td>
-                <td>Phạm Văn B</td>
-                <td>Nguyễn Văn A</td>
-                <td>Room</td>
-            </tr>
-            <tr>
-                <th scope="row">6</th>
-                <td>HD-1236</td>
-                <td>17/04/2021</td>
-                <td>17/08/2021</td>
-                <td>300000</td>
-                <td>900000</td>
-                <td>Đặng Công Tấn</td>
-                <td>Nguyễn Văn A</td>
-                <td>House</td>
-            </tr>
-            </tbody>
-        </table>
+    <div class="Form__Edit">
+        <form>
+            <div class="row d-flex">
+                <h3 class="Edit__Service">Thêm mới dịch vụ</h3>
+                <div class="col-md-6 Form__Col">
+                    <label class="matter-textfield-outlined mt__text">
+                        <input placeholder=" ">
+                        <span>Mã hợp đồng</span>
+                    </label>
+                    <label class="matter-textfield-outlined mt__text">
+                        <input type="Date" placeholder=" ">
+                        <span>Ngày bắt đầu</span>
+                    </label>
+                    <label class="matter-textfield-outlined mt__text">
+                        <input type="Date" placeholder=" ">
+                        <span>Ngày kết thúc</span>
+                    </label>
+                    <label class="matter-textfield-outlined mt__text">
+                        <input placeholder=" ">
+                        <span>Số tiền cọc</span>
+                    </label>
+                    <label class="matter-textfield-outlined mt__text">
+                        <input placeholder=" ">
+                        <span>Tổng thanh toán</span>
+                    </label>
+                </div>
+                <div class="col-md-6 Form__Col">
+                    <div class="Select__form">
+                        <select class="mt-select mt__text">
+                            <option value="" selected>Khách hàng</option>
+                            <option>Đặng Công Tấn</option>
+                            <option>Phan Văn A</option>
+                            <option>Trần Bình B</option>
+                            <option>Võ Thị C</option>
+                            <option>Huỳnh Văn F</option>
+                        </select>
+                    </div>
+                    <div class="Select__form">
+                        <select class="mt-select mt__text">
+                            <option value="" selected>Nhân viên</option>
+                            <option>Nguyễn Văn A</option>
+                            <option>Trần Thị B</option>
+                            <option>Võ Hồng C</option>
+                            <option>Trần Văn F</option>
+                            <option>Trần Văn E</option>
+                        </select>
+                    </div>
+                    <div class="Select__form">
+                        <select class="mt-select mt__text">
+                            <option value="" selected>Dịch vụ</option>
+                            <option>Villa</option>
+                            <option>House</option>
+                            <option>Room</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12" style="justify-content: center; display: flex">
+                    <div style="padding: 20px">
+                        <button class="matter-button-contained custom__btn">Xác nhận</button>
+                    </div>
+                    <div style="padding: 20px">
+                        <button class="matter-button-contained custom__btn">Huỷ</button>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
     <!-- Body -->
 
@@ -283,26 +276,5 @@
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
-    <!--    Modal-->
-    <!-- Modal -->
-    <div class="modal fade Modal_Delete" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Xoá thông tin khách hàng</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Bạn có muốn xoá khách hàng có mã là:
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ</button>
-                    <button type="button" class="btn btn-primary">Xác nhận</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--    Modal-->
+
 </div>
