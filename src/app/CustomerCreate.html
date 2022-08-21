@@ -3,8 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Furama Resort</a>
         <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler"
-                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+                class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -36,11 +35,10 @@
             <form class="form-inline my-2 my-lg-0">
                 <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                    <svg fill="none" height="24" viewBox="0 0 24 24"
-                         width="24" xmlns="http://www.w3.org/2000/svg">
+                    <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M10 2.5a7.5 7.5 0 0 1 5.964 12.048l4.743 4.745a1 1 0 0 1-1.32 1.497l-.094-.083-4.745-4.743A7.5 7.5 0 1 1 10 2.5Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"
-                            fill="#fff"/>
+                            fill="#fff" />
                     </svg>
                 </button>
             </form>
@@ -88,54 +86,60 @@
     <div class="Form__Edit">
         <form>
             <div class="row d-flex">
-                <h3 class="Edit__Service">Chỉnh sửa thông tin dịch vụ</h3>
+                <h3 class="Edit__Service">Thêm mới thông tin khách hàng</h3>
                 <div class="col-md-6 Form__Col">
                     <label class="matter-textfield-outlined mt__text">
-                        <input placeholder=" ">
-                        <span>Tên dịch vụ</span>
+                        <input placeholder=" "/>
+                        <span>Mã khách hàng</span>
                     </label>
                     <label class="matter-textfield-outlined mt__text">
-                        <input placeholder=" ">
-                        <span>Diện tích sử dụng</span>
+                        <input placeholder=" "/>
+                        <span>Họ và tên</span>
                     </label>
                     <label class="matter-textfield-outlined mt__text">
-                        <input placeholder=" ">
-                        <span>Chi phí thuê</span>
+                        <input placeholder=" "/>
+                        <span>Ngày sinh</span>
                     </label>
+
+
+                    <div class="Gender">
+                        <label>Giới tính</label>
+                        <label class="matter-radio radio__gender">
+                            <input type="radio" name="group" checked>
+                            <span>Nam</span>
+                        </label>
+                        <label class="matter-radio radio__gender">
+                            <input type="radio" name="group">
+                            <span>Nữ</span>
+                        </label>
+                    </div>
+
                     <label class="matter-textfield-outlined mt__text">
                         <input placeholder=" ">
-                        <span>Số lượng người tối đa</span>
+                        <span>CMND/CCCD</span>
                     </label>
-                    <select class="mt-select mt__text">
-                        <option>Kiểu thuê</option>
-                        <option value="Nam">Năm</option>
-                        <option value="Thang">Tháng</option>
-                        <option value="Tuan">Tuần</option>
-                        <option value="Ngay">Ngày</option>
-                    </select>
                 </div>
                 <div class="col-md-6 Form__Col">
                     <label class="matter-textfield-outlined mt__text">
                         <input placeholder=" ">
-                        <span>Tiêu chuẩn phòng</span>
+                        <span>Số Điện Thoại</span>
                     </label>
                     <label class="matter-textfield-outlined mt__text">
                         <input placeholder=" ">
-                        <span>Tiện nghi khác</span>
+                        <span>Email</span>
                     </label>
                     <label class="matter-textfield-outlined mt__text">
                         <input placeholder=" ">
-                        <span>Diện tích hồ bơi</span>
+                        <span>Địa chỉ</span>
                     </label>
-                    <label class="matter-textfield-outlined mt__text">
-                        <input placeholder=" ">
-                        <span>Số tầng</span>
-                    </label>
+
                     <select class="mt-select mt__text">
-                        <option value="" selected>Kiểu dịch vụ</option>
-                        <option>Villa</option>
-                        <option>House</option>
-                        <option>Room</option>
+                        <option>Loại khách</option>
+                        <option value="Platinum">Platinum</option>
+                        <option value="Diamon">Diamon</option>
+                        <option value="Gold">Gold</option>
+                        <option value="Sliver">Sliver</option>
+                        <option value="Member">Member</option>
                     </select>
                 </div>
                 <div class="col-md-12" style="justify-content: center; display: flex">
@@ -273,5 +277,27 @@
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
-
+    <!--    Modal-->
+    <!-- Modal -->
+    <div class="modal fade Modal_Delete" id="exampleModal" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Xoá thông tin khách hàng</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bạn có muốn xoá khách hàng có mã là:
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ</button>
+                    <button type="button" class="btn btn-primary">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    Modal-->
 </div>
