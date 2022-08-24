@@ -10,7 +10,6 @@
   padding-left: 100px;
   padding-right: 100px;
 }
-
 .nav-item .dropdown-menu, .RT__dropdown{
   background-color: #111827;
   border-radius: 10px;
@@ -109,7 +108,7 @@ padding: 10px;
     height: 60px;
     background-color: transparent;
 }
-. custom__btn{
+.custom__btn{
     margin: 20px;
     padding-left: 30px;
 }
