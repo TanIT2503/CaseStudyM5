@@ -1,0 +1,43 @@
+.Form__Edit form{
+  background-color: #ffffff;
+  border: 5px;
+  border-radius: 10px;
+}
+.Form__Edit .Edit__Customer{
+    margin: 25px;
+    text-align: center;
+}
+
+.Form__Col{
+padding:0 70px 0 70px;
+}
+.Form__Edit {
+  position: relative;
+  padding: 50px 100px 50px 100px;
+}
+.mt__text{
+    width: 100%;
+}
+.mt-select{
+    border: solid 1px #000;
+    border-radius: 5px;
+    height: 60px;
+    background-color: transparent;
+    padding: 10px;
+}
+.mt-select:hover{
+    border: solid 1px #5b91ff;
+    border-radius: 5px;
+    height: 60px;
+    background-color: transparent;
+}
+.Gender{
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: 50px;
+    color: black;
+padding: 10px;
+}
+.radio__gender{
+    margin-left: 130px;
+}
