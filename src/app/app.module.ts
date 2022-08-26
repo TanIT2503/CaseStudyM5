@@ -7,6 +7,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { FuramaServicesComponent } from './furama-services/furama-services.component';
 import { FuramaServicesEditComponent } from './furama-services-edit/furama-services-edit.component';
+import {RouterModule} from "@angular/router";
+import { FuramaServiceCreateComponent } from './furama-service-create/furama-service-create.component';
+import { FuramaCustomersListComponent } from './furama-customers-list/furama-customers-list.component';
 
 @NgModule({
   declarations: [
@@ -15,11 +18,14 @@ import { FuramaServicesEditComponent } from './furama-services-edit/furama-servi
     FooterComponent,
     HeaderComponent,
     FuramaServicesComponent,
-    FuramaServicesEditComponent
+    FuramaServicesEditComponent,
+    FuramaServiceCreateComponent,
+    FuramaCustomersListComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        RouterModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

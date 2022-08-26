@@ -50,6 +50,17 @@
             });
         });
     </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#customersTable').dataTable({
+                // "dom": 'lrtip',
+                "lengthChange": false,
+                "pageLength": 5,
+                bFilter: false, bInfo: false
+            });
+        });
+    </script>
 </body>
 
 </html>
