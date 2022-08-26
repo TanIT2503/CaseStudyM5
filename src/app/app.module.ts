@@ -11,6 +11,8 @@ import { FuramaServiceCreateComponent } from './furama-service-create/furama-ser
 import { FuramaCustomersListComponent } from './furama-customers-list/furama-customers-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { FuramaCustomerEditComponent } from './furama-customer-edit/furama-customer-edit.component';
+import { FuramaCustomerCreateComponent } from './furama-customer-create/furama-customer-create.component';
+import {NgxRangeModule} from 'ngx-range';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { FuramaCustomerEditComponent } from './furama-customer-edit/furama-custo
     FuramaServiceCreateComponent,
     FuramaCustomersListComponent,
     FooterComponent,
-    FuramaCustomerEditComponent
+    FuramaCustomerEditComponent,
+    FuramaCustomerCreateComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxRangeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

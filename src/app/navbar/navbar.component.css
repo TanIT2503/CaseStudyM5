@@ -5,6 +5,7 @@
   top: 0;
   /* margin-bottom: 50px; */
   color: #000000;
+  /* background-color: #acacac; */
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: saturate(180%) blur(30px);
   padding-left: 100px;
