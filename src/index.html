@@ -19,6 +19,7 @@
 
   <link href="https://res.cloudinary.com/finnhvman/raw/upload/matter/matter-0.2.2.css" rel="stylesheet" />
   <link href="https://res.cloudinary.com/finnhvman/raw/upload/matter/matter-0.2.2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="grid.css">
 </head>
 
 <body style="background-color: #eaeaea;">
@@ -54,6 +55,17 @@
   <script>
     $(document).ready(function () {
       $('#customersTable').dataTable({
+        // "dom": 'lrtip',
+        "lengthChange": false,
+        "pageLength": 5,
+        bFilter: false, bInfo: false
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $('#contractTable').dataTable({
         // "dom": 'lrtip',
         "lengthChange": false,
         "pageLength": 5,

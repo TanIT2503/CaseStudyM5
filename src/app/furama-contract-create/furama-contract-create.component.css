@@ -1,0 +1,37 @@
+.contract__container{
+  background-color: #ffffff;
+  border: 5px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.contract__container .edit__contract{
+  margin: 25px;
+  text-align: center;
+}
+
+.contract__col{
+  padding:0 70px 0 70px;
+}
+.Form__Edit {
+  position: relative;
+  padding: 50px 100px 50px 100px;
+}
+.mt__text{
+  width: 100%;
+}
+.mt-select{
+  border: solid 1px #000;
+  border-radius: 5px;
+  height: 60px;
+  background-color: transparent;
+  padding: 10px;
+}
+.mt-select:hover{
+  border: solid 1px #5b91ff;
+  border-radius: 5px;
+  height: 60px;
+  background-color: transparent;
+}
+.Select__form{
+  margin-bottom: 25px;
+}

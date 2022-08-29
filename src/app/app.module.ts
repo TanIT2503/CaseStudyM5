@@ -13,6 +13,8 @@ import { FooterComponent } from './footer/footer.component';
 import { FuramaCustomerEditComponent } from './furama-customer-edit/furama-customer-edit.component';
 import { FuramaCustomerCreateComponent } from './furama-customer-create/furama-customer-create.component';
 import {NgxRangeModule} from 'ngx-range';
+import { FuramaContractListComponent } from './furama-contract-list/furama-contract-list.component';
+import { FuramaContractCreateComponent } from './furama-contract-create/furama-contract-create.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import {NgxRangeModule} from 'ngx-range';
     FuramaCustomersListComponent,
     FooterComponent,
     FuramaCustomerEditComponent,
-    FuramaCustomerCreateComponent
+    FuramaCustomerCreateComponent,
+    FuramaContractListComponent,
+    FuramaContractCreateComponent
   ],
   imports: [
     BrowserModule,

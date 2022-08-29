@@ -1,16 +1,30 @@
-#Body__card{
-  position: relative;
-  padding: 50px 100px 50px 100px;
+#Body__card {
+  margin-top: 50px;
+  padding: 0 100px;
+
 }
 
 #Body__card .card {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px;
   width: 100%;
-  height: 500px;
+  height: 500px; */
+
 }
 
-.btn__card{
+.btn__card {
   margin: 20px;
 }
-td{
-width: 400px;}
+
+td {
+  width: 400px;
+}
+
+/*  */
+.services__container {
+  margin-top: 40px
+}
+
+.service__item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

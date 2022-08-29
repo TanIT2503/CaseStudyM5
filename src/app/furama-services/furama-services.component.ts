@@ -9,7 +9,7 @@ import { ServiceDAO } from '../data/ServiceDAO';
 })
 export class FuramaServicesComponent implements OnInit {
   services: IFuramaServices[] = ServiceDAO.getAllServices();
-  fakeArray = new Array(this.services.length);
+  fakeArray = new Array(3);
 
   constructor() { }
 
