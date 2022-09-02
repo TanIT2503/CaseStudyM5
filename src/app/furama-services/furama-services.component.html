@@ -1,6 +1,7 @@
 <div class="grid wide services__container">
   <div class="row">
-    <div *ngFor="let service of services" class="col l-4 m-6 c-12 service__item">
+    <div *ngFor="let service of services | paginate: { itemsPerPage: 9, currentPage: p }"
+      class="col l-4 m-6 c-12 service__item">
       <div class="card">
         <div class="bg-image hover-overlay ripple">
           <img [src]="service.serviceImage" class="img-fluid" />
@@ -11,16 +12,20 @@
         <div class="card-body">
           <h5 class="card-title">{{service.serviceName}}</h5>
           <p class="card-text"><i class="fa-solid fa-tags"></i> {{service.servicePrice}}</p>
-          <button type="button" class="btn btn-primary btn__card" data-toggle="modal" data-target="#exampleModal">
-            Xoá
-          </button>
-          <a href="#!" class="btn btn-primary btn__card">Chỉnh Sửa</a>
+          <div class="button__container">
+            <button type="button" class="btn btn-primary btn__card" data-toggle="modal" data-target="#exampleModal">
+              Xoá
+            </button>
+            <a routerLink="/furama-services-edit" class="btn btn-primary btn__card">Chỉnh Sửa</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
+<div class="wide grid pagination__container">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">

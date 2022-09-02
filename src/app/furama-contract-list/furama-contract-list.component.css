@@ -1,13 +1,18 @@
-.contract__container{
+.contract__container {
   background-color: white;
   margin-top: 40px;
   border: 2px solid #fff;
   border-radius: 10px;
-  filter: drop-shadow(
-    2px 2px 8px var(--shadow-color)
-  );
+  filter: drop-shadow(2px 2px 8px var(--shadow-color));
 }
 
 .black.box {
   --shadow-color: hsl(0deg 0% 0% / 1);
+}
+
+.pagination__container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

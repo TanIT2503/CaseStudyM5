@@ -8,12 +8,12 @@ import { ServiceDAO } from '../data/ServiceDAO';
   styleUrls: ['./furama-services.component.css']
 })
 export class FuramaServicesComponent implements OnInit {
-  services: IFuramaServices[] = ServiceDAO.getAllServices();
-  fakeArray = new Array(3);
 
   constructor() { }
+  config: any;
+  services: IFuramaServices[] = ServiceDAO.getAllServices();
+  p: number = 1;
 
   ngOnInit(): void {
   }
-
 }

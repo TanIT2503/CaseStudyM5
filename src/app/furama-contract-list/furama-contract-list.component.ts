@@ -1,3 +1,5 @@
+import { ContractDAO } from './../data/ContractDAO';
+import { IFuramaContract } from './../models/IFuramaContract';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 export class FuramaContractListComponent implements OnInit {
 
   constructor() { }
-
+  config: any;
+  contracts: IFuramaContract[] = ContractDAO.getAllContracts();
+  p: number = 1;
   ngOnInit(): void {
   }
 

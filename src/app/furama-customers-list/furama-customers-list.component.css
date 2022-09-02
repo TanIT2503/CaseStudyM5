@@ -1,37 +1,43 @@
+.customer__container {
+  background-color: white;
+  margin-top: 40px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  filter: drop-shadow(2px 2px 8px var(--shadow-color));
+}
 
-table{
-    background-color: #ffffff;
-    /* border: solid 3px; */
-    border-color: rgb(121, 121, 121);
-    border-radius: 10px;
+th,
+td {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: #d5d5d5;
+}
 
+tbody td {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: #d5d5d5;
 }
-.Table__Customer{
-    margin: 50px 100px 50px 100px;
-    border-radius: 10px;
-    border: 2px solid;
-    box-shadow: 20px;
-}
-th, td {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    border: #d5d5d5;
-}
-tbody td{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    border: #d5d5d5;
-}
-.Modal_Delete .modal-dialog .modal-content{
-background-color: #f4f8ff;
-}
-.Modal_Delete .modal-dialog .modal-content .modal-footer{
-    border-top: 2px solid #d5d5d5;
-}
-.Modal_Delete .modal-dialog .modal-content .modal-header{
-      border-bottom: 2px solid #d5d5d5;
-  }
 
-.mt__text{
-    width: 100%;
+.Modal_Delete .modal-dialog .modal-content {
+  background-color: #f4f8ff;
+}
+
+.Modal_Delete .modal-dialog .modal-content .modal-footer {
+  border-top: 2px solid #d5d5d5;
+}
+
+.Modal_Delete .modal-dialog .modal-content .modal-header {
+  border-bottom: 2px solid #d5d5d5;
+}
+
+.mt__text {
+  width: 100%;
+}
+
+.pagination__container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -12,10 +12,10 @@ import { FuramaCustomersListComponent } from './furama-customers-list/furama-cus
 import { FooterComponent } from './footer/footer.component';
 import { FuramaCustomerEditComponent } from './furama-customer-edit/furama-customer-edit.component';
 import { FuramaCustomerCreateComponent } from './furama-customer-create/furama-customer-create.component';
-import {NgxRangeModule} from 'ngx-range';
 import { FuramaContractListComponent } from './furama-contract-list/furama-contract-list.component';
 import { FuramaContractCreateComponent } from './furama-contract-create/furama-contract-create.component';
-
+import {NgxPaginationModule} from 'ngx-pagination';
+import { AboutComponent } from './about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +29,13 @@ import { FuramaContractCreateComponent } from './furama-contract-create/furama-c
     FuramaCustomerEditComponent,
     FuramaCustomerCreateComponent,
     FuramaContractListComponent,
-    FuramaContractCreateComponent
+    FuramaContractCreateComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxRangeModule
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
