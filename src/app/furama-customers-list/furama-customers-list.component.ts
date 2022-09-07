@@ -5,7 +5,7 @@ import {CustomerDAO} from '../data/CustomerDAO';
 @Component({
   selector: 'app-furama-customers-list',
   templateUrl: './furama-customers-list.component.html',
-  styleUrls: ['./furama-customers-list.component.css']
+  styleUrls: ['./furama-customers-list.component.scss']
 })
 export class FuramaCustomersListComponent implements OnInit {
 

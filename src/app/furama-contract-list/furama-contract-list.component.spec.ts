@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FuramaContractListComponent } from './furama-contract-list.component';
 
@@ -6,12 +6,12 @@ describe('FuramaContractListComponent', () => {
   let component: FuramaContractListComponent;
   let fixture: ComponentFixture<FuramaContractListComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
       declarations: [ FuramaContractListComponent ]
     })
     .compileComponents();
-  }));
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(FuramaContractListComponent);

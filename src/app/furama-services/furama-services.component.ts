@@ -5,7 +5,7 @@ import { ServiceDAO } from '../data/ServiceDAO';
 @Component({
   selector: 'app-furama-services',
   templateUrl: './furama-services.component.html',
-  styleUrls: ['./furama-services.component.css']
+  styleUrls: ['./furama-services.component.scss']
 })
 export class FuramaServicesComponent implements OnInit {
 

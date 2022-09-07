@@ -11,7 +11,9 @@ describe('FuramaServicesComponent', () => {
       declarations: [ FuramaServicesComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(FuramaServicesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -1,7 +1,15 @@
 <div class="grid wide services__container">
+  <div class=" row">
+    <div class="col-md-8 text__container-service">
+      <h3>Danh Sách Dịch Vụ</h3>
+    </div>
+    <div class="col-md-4 text__container-service">
+      <a type="button" class="btn btn-primary" routerLink="/furama-services-create"><i class="fa-solid fa-plus" ></i></a>
+    </div>
+  </div>
   <div class="row">
     <div *ngFor="let service of services | paginate: { itemsPerPage: 9, currentPage: p }"
-      class="col l-4 m-6 c-12 service__item">
+         class="col l-4 m-6 c-12 service__item">
       <div class="card">
         <div class="bg-image hover-overlay ripple">
           <img [src]="service.serviceImage" class="img-fluid" />
@@ -14,9 +22,9 @@
           <p class="card-text"><i class="fa-solid fa-tags"></i> {{service.servicePrice}}</p>
           <div class="button__container">
             <button type="button" class="btn btn-primary btn__card" data-toggle="modal" data-target="#exampleModal">
-              Xoá
+              <i class="fa-solid fa-trash"></i>
             </button>
-            <a routerLink="/furama-services-edit" class="btn btn-primary btn__card">Chỉnh Sửa</a>
+            <a routerLink="/furama-services-edit" class="btn btn-primary btn__card"><i class="fa-solid fa-pen-to-square" routerLink="furama-services-edit"></i></a>
           </div>
         </div>
       </div>
@@ -28,7 +36,7 @@
 </div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
+     aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
