@@ -5,6 +5,5 @@ export interface IFuramaContract {
   contractTotalCost: number;
   contractDeposit: number;
   contractCustomer: string;
-  contractEmployee: string;
   contractService: string;
 }

@@ -9,7 +9,6 @@ export class ContractDAO {
       contractTotalCost: 1000000,
       contractDeposit: 500000,
       contractCustomer: "Nguyen Van A",
-      contractEmployee: "Nguyen Van B",
       contractService: "Villa"
     },
     {
@@ -19,7 +18,6 @@ export class ContractDAO {
       contractTotalCost: 1000000,
       contractDeposit: 500000,
       contractCustomer: "Nguyen Van C",
-      contractEmployee: "Nguyen Van D",
       contractService: "Villa"
     },
     {
@@ -29,7 +27,6 @@ export class ContractDAO {
       contractTotalCost: 1000000,
       contractDeposit: 500000,
       contractCustomer: "Nguyen Van E",
-      contractEmployee: "Nguyen Van F",
       contractService: "Villa"
     },
     {
@@ -39,7 +36,6 @@ export class ContractDAO {
       contractTotalCost: 1000000,
       contractDeposit: 500000,
       contractCustomer: "Nguyen Van G",
-      contractEmployee: "Nguyen Van H",
       contractService: "Villa"
     },
     {
@@ -49,7 +45,6 @@ export class ContractDAO {
       contractTotalCost: 1000000,
       contractDeposit: 500000,
       contractCustomer: "Nguyen Van I",
-      contractEmployee: "Nguyen Van J",
       contractService: "Villa"
     },
     {
@@ -59,7 +54,6 @@ export class ContractDAO {
       contractTotalCost: 1000000,
       contractDeposit: 500000,
       contractCustomer: "Nguyen Van K",
-      contractEmployee: "Nguyen Van L",
       contractService: "Villa"
     }
   ];
