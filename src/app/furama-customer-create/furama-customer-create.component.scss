@@ -39,7 +39,10 @@
   margin-left: 50px;
 }
 
-.form-control{
+.form-control, .form__text{
   //width: 100%;
   margin-bottom: 20px;
+}
+.form__text{
+	color: red;
 }

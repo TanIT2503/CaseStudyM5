@@ -26,7 +26,7 @@
       <tbody>
       <tr *ngFor="let customer of customers | paginate: { itemsPerPage: 5, currentPage: p }">
         <th scope="row">{{customer.customerId}}</th>
-        <td>{{customer.customerName}}</td>
+        <td [value]="">{{customer.customerName}}</td>
         <td>{{customer.customerBirthday}}</td>
         <td>{{customer.customerGender}}</td>
         <td>{{customer.customerIdentify}}</td>
@@ -40,7 +40,7 @@
           </button>
         </td>
         <td>
-          <a class="btn btn-primary" routerLink="/furama-customer-edit">
+          <a class="btn btn-primary" [routerLink]="['/furama-customer-edit/',customer.customerId]">
             <i class="fa-solid fa-pen-to-square"></i>
           </a>
         </td>

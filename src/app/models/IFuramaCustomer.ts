@@ -1,5 +1,5 @@
 export interface IFuramaCustomer {
-  customerId: string;
+  customerId: number;
   customerName: string;
   customerBirthday: string;
   customerGender: string;

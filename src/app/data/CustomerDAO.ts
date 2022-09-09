@@ -3,7 +3,7 @@ import { IFuramaCustomer } from '../models/IFuramaCustomer';
 export class CustomerDAO {
   static customers: IFuramaCustomer[] = [
     {
-      customerId: '1',
+      customerId: 1,
       customerName: 'Đặng Công Tấn',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -14,7 +14,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '2',
+      customerId: 2,
       customerName: 'Trần Văn B',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -25,7 +25,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '3',
+      customerId: 3,
       customerName: 'Võ Thị C',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -36,7 +36,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '1',
+      customerId: 1,
       customerName: 'Đặng Công Tấn',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -47,7 +47,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '2',
+      customerId: 2,
       customerName: 'Trần Văn B',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -58,7 +58,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '3',
+      customerId: 3,
       customerName: 'Võ Thị C',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -69,7 +69,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '1',
+      customerId: 1,
       customerName: 'Đặng Công Tấn',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -80,7 +80,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '2',
+      customerId: 2,
       customerName: 'Trần Văn B',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -91,7 +91,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '3',
+      customerId: 3,
       customerName: 'Võ Thị C',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -102,7 +102,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '1',
+      customerId: 1,
       customerName: 'Đặng Công Tấn',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -113,7 +113,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '2',
+      customerId: 2,
       customerName: 'Trần Văn B',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -124,7 +124,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '3',
+      customerId: 3,
       customerName: 'Võ Thị C',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -135,7 +135,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '1',
+      customerId: 1,
       customerName: 'Đặng Công Tấn',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -146,7 +146,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '2',
+      customerId: 2,
       customerName: 'Trần Văn B',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -157,7 +157,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '3',
+      customerId: 3,
       customerName: 'Võ Thị C',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -168,7 +168,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '1',
+      customerId: 1,
       customerName: 'Đặng Công Tấn',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -179,7 +179,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '2',
+      customerId: 2,
       customerName: 'Trần Văn B',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -190,7 +190,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '3',
+      customerId: 3,
       customerName: 'Võ Thị C',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -201,7 +201,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '1',
+      customerId: 1,
       customerName: 'Đặng Công Tấn',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -212,7 +212,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '2',
+      customerId: 2,
       customerName: 'Trần Văn B',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -223,7 +223,7 @@ export class CustomerDAO {
       customerType: 'VIP',
     },
     {
-      customerId: '3',
+      customerId: 3,
       customerName: 'Võ Thị C',
       customerBirthday: '25/03/2001',
       customerIdentify: '1245676543',
@@ -237,4 +237,5 @@ export class CustomerDAO {
   static getAllCustomers() {
     return this.customers;
   }
+
 }

@@ -35,6 +35,7 @@ import { FuramaCustomerEditComponent } from './furama-customer-edit/furama-custo
 import { FuramaServicesEditComponent } from './furama-services-edit/furama-services-edit.component';
 import { FuramaCustomerCreateComponent } from './furama-customer-create/furama-customer-create.component';
 import { FuramaContractCreateComponent } from './furama-contract-create/furama-contract-create.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -72,6 +73,7 @@ import { FuramaContractCreateComponent } from './furama-contract-create/furama-c
     MdbValidationModule,
     NgxPaginationModule,
     AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -13,10 +13,10 @@ import {FuramaContractCreateComponent} from "./furama-contract-create/furama-con
 
 const routes: Routes = [
   { path: 'furama-services', component: FuramaServicesComponent },
-  { path: 'furama-services-edit', component: FuramaServicesEditComponent },
+  { path: 'furama-services-edit/:id', component: FuramaServicesEditComponent },
   { path: 'furama-services-create', component: FuramaServiceCreateComponent },
   { path: 'furama-customer-list', component: FuramaCustomersListComponent },
-  { path: 'furama-customer-edit', component: FuramaCustomerEditComponent },
+  { path: 'furama-customer-edit/:id', component: FuramaCustomerEditComponent },
   { path: 'furama-customer-create', component: FuramaCustomerCreateComponent },
   { path: 'furama-contract-list', component: FuramaContractListComponent },
   { path: 'furama-contract-create', component: FuramaContractCreateComponent },
